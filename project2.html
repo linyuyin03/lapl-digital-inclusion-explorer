@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore digital inclusion resources at Los Angeles Public Library branches.">
+  <title>Los Angeles Public Library Digital Inclusion Explorer</title>
+  <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="masthead">
+      <div class="masthead-mark">Los Angeles Public Library</div>
+      <div>Digital Inclusion Explorer</div>
+    </header>
+
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class = "eyebrow">SSCI 591 · Project 2</p>
+          <h1 id="page-title">Los Angeles Public Library Digital Inclusion Explorer</h1>
+        </div>
+        <p class="dek">This interactive Web GIS application maps digital inclusion resources available across Los Angeles Public Library branches. Users can explore branch locations, click individual library points to view branch information, and filter locations by digital resources such as iPad Minis, Hotspots, or Chromebooks. The application is designed to make branch-level digital access information easier to explore in a geographic context.</p>
+      </section>
+
+      <section class ="project-notes" aria-labelledby="how-to-title">
+        <div>
+          <p class="section-label">Explore the map</p>
+          <h2 id = "how-to-title">How to use the map</h2>
+          <p>Explore library locations and the digital resources available at each branch.</p>
+        </div>
+        <ol class="steps">
+          <li>Pan and zoom to explore library branches across Los Angeles.</li>
+          <li>Click a library point to view its branch name, digital inclusion resources, phone number, and hours.</li>
+          <li>Use the resource filter to search for a service or technology such as iPad Minis, Hotspots, or Chromebooks.</li>
+          <li>Clear the filter text to return to the full set of library branches.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="map-title">
+        <div class="map-heading">
+          <h2 id="map-title">Los Angeles Public Library Digital Inclusion Explorer</h2>
+          <span class="map-status">Interactive map</span>
+        </div>
+        <iframe
+          class="map-frame"
+          src= "https://experience.arcgis.com/experience/0bd7f89ce3f34ede97ff70b936d56232"
+          title="Los Angeles Public Library Digital Inclusion Explorer interactive map"
+          allowfullscreen>
+        </iframe>
+        <div class="map-actions">
+          <a class ="app-link" href="https://experience.arcgis.com/experience/0bd7f89ce3f34ede97ff70b936d56232" target="_blank" rel="noopener noreferrer">Open the app full screen</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="page-shell footer-inner">
+      <p class="footer-item"><strong>Data source</strong>Los Angeles Public Library digital inclusion resources</p>
+      <p class ="footer-item"><strong>Software</strong>ArcGIS Online · Web Map · Experience Builder</p>
+    </div>
+  </footer>
+</body>
+</html>
